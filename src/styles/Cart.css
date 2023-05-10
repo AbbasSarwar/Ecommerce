@@ -1,0 +1,94 @@
+.Emptycart {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 50px 0;
+    align-items: center;
+}
+.Emptycart h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(20, 20, 105);
+}
+.Emptycart h4 {
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px 0;
+    color: rgb(51, 51, 110);
+}
+
+.Cartcontainer {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.Cartcontainer header {
+    display: flex;
+    justify-content: center;
+}
+.Cartcontainer .clearAll {
+    width: 18%;
+    height: 5vh;
+    border-radius: 3px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.removeItem {
+    background-color: #fff;
+    color: blue;
+    border: none;
+    width: 3.8vw;
+}
+.removeItem:hover {
+    background-color: #fff;
+}
+
+.Cartcontainer .clearAll:hover {
+    background-color: rgb(163, 163, 242);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h4{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+footer .clearAll {
+    align-self: center;
+}
+
+.cartCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+img {
+    width: 10vw;
+    height: 13vh;
+    border-radius: 2px;
+}
+.itemDetails {
+    display: flex;
+    flex-direction: column;
+    padding:30px 0 30px 30px;
+
+}
+.itemDetails h2 {
+    color: rgb(3, 3, 38);
+}
+
+.itemDetails p {
+    color: rgb(105, 117, 118);
+}

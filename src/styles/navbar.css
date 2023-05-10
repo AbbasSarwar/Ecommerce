@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: rgb(20, 20, 153);
+}
+
+nav h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.nav-container p {
+    font-size: 18px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 2px 7px;
+    position: absolute;
+    top: -5px;
+    left: 21px;
+    background-color: rgb(153, 153, 237);
+}
+.nav-container .fa-bag-shopping {
+    color: rgb(218, 233, 247);
+    font-size: 35px;
+}
